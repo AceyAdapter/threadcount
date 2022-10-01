@@ -1,3 +1,7 @@
+<script>
+  let y = 0
+</script>
+
 <style>
   @keyframes bounce {
     0%,
@@ -15,17 +19,32 @@
     }
   }
 
+  @keyframes disappear {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
   .bounce {
     animation: bounce 3s infinite;
   }
+
+  .dissolve {
+    animation: disappear 1s ease-in-out forwards;
+  }
 </style>
 
-<div class="z-40 absolute bottom-4 left-1/2 transform -translate-x-1/2">
-  <div class="flex flex-row items-center justify-center">
+<div
+  class="{y > 50 ? 'dissolve' : ''} z-40 absolute bottom-4 left-1/2 transform
+  -translate-x-1/2">
+  <div class="bounce flex flex-row items-center justify-center">
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="bounce w-4 fill-secondary"
+        class="w-4 fill-white"
         viewBox="0 0 384 512">
         <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
         <path
@@ -35,13 +54,11 @@
           45.3l160 160z" />
       </svg>
     </div>
-    <div class="text-xl text-secondary font-semibold bounce mx-2">
-      Learn More
-    </div>
+    <div class="text-xl text-white font-semibold mx-2">Learn More</div>
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="bounce w-4 fill-secondary"
+        class="w-4 fill-white"
         viewBox="0 0 384 512">
         <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
         <path
@@ -53,3 +70,5 @@
     </div>
   </div>
 </div>
+
+<svelte:window bind:scrollY={y} />
