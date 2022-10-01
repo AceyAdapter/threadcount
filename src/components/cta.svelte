@@ -38,8 +38,8 @@
 </style>
 
 <div
-  class="{y > 50 ? 'dissolve' : ''} z-40 absolute bottom-4 left-1/2 transform
-  -translate-x-1/2">
+  class="{y > 5 ? 'dissolve' : ''} lg:hidden z-40 absolute bottom-4 left-1/2
+  transform -translate-x-1/2">
   <div class="bounce flex flex-row items-center justify-center">
     <div>
       <svg
