@@ -20,16 +20,20 @@
       </div>
     </a>
   </div>
-  <!-- <div class="flex flex-row">
+  <div class="lg:block hidden">
     <a
       href="https://www.linkedin.com/in/nicholas-kreitz-3a13531a0/"
       target="_blank">
       <Instagram style={'w-5 h-5 fill-base-100'} />
     </a>
-    <a href="mailto:nicholaskreitz@gmail.com">
-      <Mail style={'w-5 h-5 fill-base-100'} />
+  </div>
+  <div class="lg:hidden absolute right-5 top-2">
+    <a
+      href="https://www.linkedin.com/in/nicholas-kreitz-3a13531a0/"
+      target="_blank">
+      <Instagram style={'w-5 h-5 fill-base-100'} />
     </a>
-  </div> -->
+  </div>
 </div>
 
 <svelte:window bind:scrollY={y} />

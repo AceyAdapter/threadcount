@@ -30,5 +30,12 @@
     <div class="text-primary text-center px-3 text-3xl font-bold">
       Gain insights into your fashion footprint.
     </div>
+    <a
+      class="btn btn-secondary text-white lg:w-40 w-2/3 h-14 font-bold
+      font-poppins mt-10"
+      href="/app">
+      Get Started!
+    </a>
+
   </div>
 </div>

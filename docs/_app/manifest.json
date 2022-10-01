@@ -1,51 +1,72 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-7283c9f2.js",
+    "file": "start-60b3a179.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-9c5562c4.js"
+      "_index-444ce060.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/app.svelte",
       "src/routes/index.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-cac64fa4.js",
+    "file": "pages/__layout.svelte-a9417a7b.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-9c5562c4.js"
+      "_index-444ce060.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-769f299b.css"
+      "assets/pages/__layout.svelte-f187fb7e.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-e5fa2026.js",
+    "file": "error.svelte-509fa184.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-9c5562c4.js"
+      "_index-444ce060.js"
+    ]
+  },
+  "src/routes/app.svelte": {
+    "file": "pages/app.svelte-67b6cd7b.js",
+    "src": "src/routes/app.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-444ce060.js",
+      "_header-04438df3.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-d3b47935.js",
+    "file": "pages/index.svelte-1fe3b109.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-9c5562c4.js"
+      "_index-444ce060.js",
+      "_header-04438df3.js"
     ],
     "css": [
-      "assets/pages/index.svelte-6484293b.css"
+      "assets/pages/index.svelte-793a77c7.css"
     ]
   },
-  "_index-9c5562c4.js": {
-    "file": "chunks/index-9c5562c4.js"
+  "_index-444ce060.js": {
+    "file": "chunks/index-444ce060.js"
+  },
+  "_header-04438df3.js": {
+    "file": "chunks/header-04438df3.js",
+    "imports": [
+      "_index-444ce060.js"
+    ],
+    "css": [
+      "assets/header-4d32de7f.css"
+    ]
   }
 }
