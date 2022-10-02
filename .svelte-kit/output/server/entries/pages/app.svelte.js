@@ -1,5 +1,5 @@
-import { c as create_ssr_component, a as add_attribute, v as validate_component, e as escape } from "../../chunks/index-c5e2452c.js";
-import { H as Header } from "../../chunks/header-29570dc9.js";
+import { c as create_ssr_component, a as add_attribute, v as validate_component, e as escape } from "../../chunks/index-6b489d84.js";
+import { H as Header } from "../../chunks/header-bd9c400b.js";
 import "highcharts";
 const Overall_chart = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let chart;
@@ -150,14 +150,6 @@ const App = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     rating_counts: planet_counts,
     title: "Distribution of Planet Ratings",
     container_id: "planet"
-  }, {}, {})}</div>
-    <div class="${"hidden overflow-x-auto"}"><table class="${"table table-compact table-zebra w-full"}">
-        <thead><tr><th></th>
-            <th>Name</th>
-            <th>Rating</th>
-            <th>People</th>
-            <th>Animals</th>
-            <th>Planet</th></tr></thead>
-        <tbody></tbody></table></div></div></div>`;
+  }, {}, {})}</div></div></div>`;
 });
 export { App as default };

@@ -142,32 +142,5 @@
         title={'Distribution of Planet Ratings'}
         container_id={'planet'} />
     </div>
-    <div class="hidden overflow-x-auto">
-      <table class="table table-compact table-zebra w-full">
-        <!-- head -->
-        <thead>
-          <tr>
-            <th />
-            <th>Name</th>
-            <th>Rating</th>
-            <th>People</th>
-            <th>Animals</th>
-            <th>Planet</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- {#each brands as brand, i}
-            <tr>
-              <th>{i + 1}</th>
-              <td>{brand.name}</td>
-              <td>{brand.overall_score}</td>
-              <td>{brand.ratings.People}</td>
-              <td>{brand.ratings.Animals}</td>
-              <td>{brand.ratings.Planet}</td>
-            </tr>
-          {/each} -->
-        </tbody>
-      </table>
-    </div>
   </div>
 </div>

@@ -37,6 +37,13 @@ function escape(html) {
 function escape_attribute_value(value) {
   return typeof value === "string" ? escape(value) : value;
 }
+function each(items, fn) {
+  let str = "";
+  for (let i = 0; i < items.length; i += 1) {
+    str += fn(items[i], i);
+  }
+  return str;
+}
 const missing_component = {
   $$render: () => ""
 };
@@ -89,4 +96,4 @@ function add_attribute(name, value, boolean) {
   const assignment = boolean && value === true ? "" : `="${escape_attribute_value(value.toString())}"`;
   return ` ${name}${assignment}`;
 }
-export { add_attribute as a, create_ssr_component as c, escape as e, missing_component as m, null_to_empty as n, setContext as s, validate_component as v };
+export { add_attribute as a, each as b, create_ssr_component as c, escape as e, missing_component as m, null_to_empty as n, setContext as s, validate_component as v };
