@@ -6,6 +6,7 @@
   import Highcharts from 'highcharts'
   import OverallChart from '../components/overall_chart.svelte'
   import RatingChart from '../components/rating_chart.svelte'
+  import Loader from '../components/loader.svelte'
 
   $: brands = []
   $: name = ''
@@ -15,6 +16,8 @@
   $: animal_counts = {}
   $: people_counts = {}
   $: planet_counts = {}
+
+  $: isLoading = true
 
   $: formatData(brands)
 
@@ -69,6 +72,8 @@
     animal_counts = ani_counts
     people_counts = pep_counts
     planet_counts = pla_counts
+
+    isLoading = false
   }
 
   onMount(async () => {
@@ -82,7 +87,10 @@
 
 <div class="min-h-screen">
   <Header initTransparent={true} />
-  <div class="flex flex-row flex-wrap">
+  <div class={isLoading ? '' : 'hidden'}>
+    <Loader />
+  </div>
+  <div class="{isLoading ? 'hidden' : ''} flex flex-row flex-wrap">
     <div class="lg:w-1/2 w-full p-5">
       <OverallChart {rating_counts} />
     </div>
@@ -104,7 +112,7 @@
         title={'Distribution of Planet Ratings'}
         container_id={'planet'} />
     </div>
-    <div class="overflow-x-auto">
+    <div class="hidden overflow-x-auto">
       <table class="table table-compact table-zebra w-full">
         <!-- head -->
         <thead>

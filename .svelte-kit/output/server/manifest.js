@@ -3,7 +3,7 @@ export const manifest = {
 	assets: new Set([".nojekyll","CNAME","favicon.png","img/blackjack_1.png","img/blackjack_2.png","img/closeup.png","img/crazy-crypto.png","img/daisyui.jpeg","img/egoh-site.png","img/fridge_1.png","img/fridge_2.png","img/nick-color.jpeg","img/nick-cutout.png","img/nmi-logo.jpeg","img/stats-card.png","img/sveltekit.png","img/vault.png"]),
 	mimeTypes: {".png":"image/png",".jpeg":"image/jpeg"},
 	_: {
-		entry: {"file":"start-aad822eb.js","js":["start-aad822eb.js","chunks/index-444ce060.js"],"css":[]},
+		entry: {"file":"start-5982078f.js","js":["start-5982078f.js","chunks/index-444ce060.js"],"css":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),

@@ -31,6 +31,12 @@
       Gain insights into your fashion footprint.
     </div>
     <a
+      class="btn btn-primary text-white lg:w-40 w-2/3 h-14 font-bold
+      font-poppins mt-10"
+      href="/app">
+      Get Your ThreadScore
+    </a>
+    <a
       class="btn btn-secondary text-white lg:w-40 w-2/3 h-14 font-bold
       font-poppins mt-10"
       href="/app">
