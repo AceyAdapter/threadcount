@@ -1,4 +1,4 @@
-import { c as create_ssr_component, e as escape, n as null_to_empty, a as add_attribute, v as validate_component } from "./index-c5e2452c.js";
+import { c as create_ssr_component, e as escape, n as null_to_empty, b as add_attribute, v as validate_component } from "./index-e92a6b2a.js";
 var instagram_svelte_svelte_type_style_lang = "";
 const css = {
   code: "@-webkit-keyframes svelte-kahn6z-delayed_spin{0%,20%,70%{transform:rotate(0deg)}90%{transform:rotate(360deg)}}@keyframes svelte-kahn6z-delayed_spin{0%,20%,70%{transform:rotate(0deg)}90%{transform:rotate(360deg)}}.spin-delay.svelte-kahn6z{-webkit-animation:svelte-kahn6z-delayed_spin 15s infinite;animation:svelte-kahn6z-delayed_spin 15s infinite}",
