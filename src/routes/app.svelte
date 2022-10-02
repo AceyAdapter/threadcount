@@ -90,6 +90,36 @@
   <div class={isLoading ? '' : 'hidden'}>
     <Loader />
   </div>
+  <div class="flex flex-col items-center my-10 px-6">
+    <div class="lg:text-5xl text-3xl font-bold text-primary">
+      Dive Into The Data
+    </div>
+    <div class="lg:text-2xl text-lg text-primary mt-5 underline">
+      What do these ratings mean?
+    </div>
+    <div class="text-primary mt-5 text-center">
+      The Good On You rating system was developed to categorize brands based on
+      three key areas: people, animals, and the planet.
+    </div>
+    <div class="text-primary mt-5 text-center">
+      The organization utilizes a comprehensive method for deriving these
+      ratings and I encourage you to read more about it on
+      <span class="underline">
+        <a href="https://goodonyou.eco/how-we-rate/" target="_blank">
+          their website
+        </a>
+      </span>
+      to have a better understanding of the charts below.
+    </div>
+    <div class="text-primary mt-5 text-center">
+      The charts below were created by aggregating all the publically available
+      brand ratings on Good On You's directory as of October 2022.
+    </div>
+    <div class="text-primary mt-5 text-center">
+      My aim is to provide visual insights into the industry to highlight the
+      specific areas that are driving brand ratings.
+    </div>
+  </div>
   <div class="{isLoading ? 'hidden' : ''} flex flex-row flex-wrap">
     <div class="lg:w-1/2 w-full p-5">
       <OverallChart {rating_counts} />

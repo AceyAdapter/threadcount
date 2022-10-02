@@ -30,18 +30,20 @@
     <div class="text-primary text-center px-3 text-3xl font-bold">
       Gain insights into your fashion footprint.
     </div>
-    <a
-      class="btn btn-primary text-white lg:w-40 w-2/3 h-14 font-bold
-      font-poppins mt-10"
-      href="/app">
-      Get Your ThreadScore
-    </a>
-    <a
-      class="btn btn-secondary text-white lg:w-40 w-2/3 h-14 font-bold
-      font-poppins mt-10"
-      href="/app">
-      Dive Into the data
-    </a>
+    <div class="flex lg:flex-row flex-col justify-center items-center w-full">
+      <a
+        class="btn btn-primary lg:mr-10 text-white lg:w-40 w-2/3 h-14 font-bold
+        font-poppins mt-10"
+        href="/threadscore">
+        Get Your ThreadScore
+      </a>
+      <a
+        class="btn btn-secondary text-white lg:w-40 w-2/3 h-14 font-bold
+        font-poppins mt-10"
+        href="/app">
+        Dive Into the data
+      </a>
+    </div>
 
   </div>
 </div>

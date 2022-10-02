@@ -18,7 +18,7 @@
       "_index-c5e2452c.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-9549ed3b.css"
+      "assets/entries/pages/__layout.svelte-60b5b386.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -51,6 +51,15 @@
     ],
     "css": [
       "assets/entries/pages/index.svelte-7c846da2.css"
+    ]
+  },
+  "src/routes/threadscore.svelte": {
+    "file": "entries/pages/threadscore.svelte.js",
+    "src": "src/routes/threadscore.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-c5e2452c.js",
+      "_header-29570dc9.js"
     ]
   },
   "_index-c5e2452c.js": {

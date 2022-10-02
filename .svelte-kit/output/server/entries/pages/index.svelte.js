@@ -29,9 +29,9 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       <a href="${"https://goodonyou.eco/"}" target="${"_blank"}">${validate_component(Good_on_you, "GoodOnYou").$$render($$result, { style: "w-24 fill-white" }, {}, {})}</a></div></div>
   <div class="${"flex flex-col items-center my-20 px-4"}"><div class="${"text-primary text-center px-3 text-3xl font-bold"}">Gain insights into your fashion footprint.
     </div>
-    <a class="${"btn btn-primary text-white lg:w-40 w-2/3 h-14 font-bold font-poppins mt-10"}" href="${"/app"}">Get Your ThreadScore
-    </a>
-    <a class="${"btn btn-secondary text-white lg:w-40 w-2/3 h-14 font-bold font-poppins mt-10"}" href="${"/app"}">Dive Into the data
-    </a></div></div>`;
+    <div class="${"flex lg:flex-row flex-col justify-center items-center w-full"}"><a class="${"btn btn-primary lg:mr-10 text-white lg:w-40 w-2/3 h-14 font-bold font-poppins mt-10"}" href="${"/threadscore"}">Get Your ThreadScore
+      </a>
+      <a class="${"btn btn-secondary text-white lg:w-40 w-2/3 h-14 font-bold font-poppins mt-10"}" href="${"/app"}">Dive Into the data
+      </a></div></div></div>`;
 });
 export { Routes as default };
