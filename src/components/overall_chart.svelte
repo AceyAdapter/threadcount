@@ -13,15 +13,15 @@
       console.log('run')
       chart.addSeries(
         {
-          name: 'Test',
+          name: 'Count',
           color: '#000',
           data: [
             {
-              name: 'We Avoid',
+              name: 'Avoid',
               y: rating_counts[1],
             },
             {
-              name: 'Not Good Enough',
+              name: 'Not Good',
               y: rating_counts[2],
             },
             {
@@ -49,9 +49,12 @@
     chart = Highcharts.chart('container', {
       chart: {
         type: 'pie',
+        backgroundColor: '#ABD369',
+        borderRadius: 25,
       },
       title: {
         text: 'Distribution of Brand by Overall Score',
+        style: { color: '#000' },
       },
       subtitle: {
         text: 'Source: Good On You',

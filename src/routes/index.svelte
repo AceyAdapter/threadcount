@@ -34,7 +34,7 @@
       class="btn btn-secondary text-white lg:w-40 w-2/3 h-14 font-bold
       font-poppins mt-10"
       href="/app">
-      Get Started!
+      Dive Into the data
     </a>
 
   </div>

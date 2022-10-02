@@ -1,5 +1,5 @@
-import { c as create_ssr_component, e as escape, b as add_attribute, v as validate_component } from "../../chunks/index-e92a6b2a.js";
-import { H as Header } from "../../chunks/header-c6fc00f6.js";
+import { c as create_ssr_component, e as escape, a as add_attribute, v as validate_component } from "../../chunks/index-c5e2452c.js";
+import { H as Header } from "../../chunks/header-29570dc9.js";
 var cta_svelte_svelte_type_style_lang = "";
 const css = {
   code: "@-webkit-keyframes svelte-12qrohu-bounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-30px)}60%{transform:translateY(-15px)}}@keyframes svelte-12qrohu-bounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-30px)}60%{transform:translateY(-15px)}}@-webkit-keyframes svelte-12qrohu-disappear{0%{opacity:1}100%{opacity:0}}@keyframes svelte-12qrohu-disappear{0%{opacity:1}100%{opacity:0}}.bounce.svelte-12qrohu{-webkit-animation:svelte-12qrohu-bounce 3s infinite;animation:svelte-12qrohu-bounce 3s infinite}.dissolve.svelte-12qrohu{-webkit-animation:svelte-12qrohu-disappear 1s ease-in-out forwards;animation:svelte-12qrohu-disappear 1s ease-in-out forwards}",
@@ -29,7 +29,7 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       <a href="${"https://goodonyou.eco/"}" target="${"_blank"}">${validate_component(Good_on_you, "GoodOnYou").$$render($$result, { style: "w-24 fill-white" }, {}, {})}</a></div></div>
   <div class="${"flex flex-col items-center my-20 px-4"}"><div class="${"text-primary text-center px-3 text-3xl font-bold"}">Gain insights into your fashion footprint.
     </div>
-    <a class="${"btn btn-secondary text-white lg:w-40 w-2/3 h-14 font-bold font-poppins mt-10"}" href="${"/app"}">Get Started!
+    <a class="${"btn btn-secondary text-white lg:w-40 w-2/3 h-14 font-bold font-poppins mt-10"}" href="${"/app"}">Dive Into the data
     </a></div></div>`;
 });
 export { Routes as default };
