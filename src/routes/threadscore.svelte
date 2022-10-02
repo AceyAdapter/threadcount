@@ -43,7 +43,7 @@
 <div class="min-h-screen">
   <Header initTransparent={true} />
   <div class="flex flex-col items-center my-10 px-6">
-    <div class="lg:text-5xl text-3xl font-bold text-primary">
+    <div class="lg:text-5xl text-3xl font-bold text-primary text-center">
       Get Your Threadscore
     </div>
     <div class="lg:text-2xl text-lg text-primary mt-5 underline">

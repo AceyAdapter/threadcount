@@ -28,7 +28,7 @@ const Threadscore = create_ssr_component(($$result, $$props, $$bindings, slots) 
   }
   threadscore = 0;
   return `<div class="${"min-h-screen"}">${validate_component(Header, "Header").$$render($$result, { initTransparent: true }, {}, {})}
-  <div class="${"flex flex-col items-center my-10 px-6"}"><div class="${"lg:text-5xl text-3xl font-bold text-primary"}">Get Your Threadscore
+  <div class="${"flex flex-col items-center my-10 px-6"}"><div class="${"lg:text-5xl text-3xl font-bold text-primary text-center"}">Get Your Threadscore
     </div>
     <div class="${"lg:text-2xl text-lg text-primary mt-5 underline"}">What is a Threadscore?
     </div>
